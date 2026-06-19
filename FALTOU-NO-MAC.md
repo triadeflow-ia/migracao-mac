@@ -3,6 +3,14 @@
 > Claude do **Windows**: o Alex rodou a migração no Mac novo em 2026-06-19. Quase tudo
 > foi restaurado, **menos os secrets e os tokens dos MCP**. Tua tarefa é reempacotar e
 > subir o que falta. Detalhes abaixo.
+>
+> **DECISÃO DO ALEX (2026-06-19): caminho A — trazer do Windows.** Reempacota o
+> `pacote-secrets/` e sobe pro Drive (passos na seção "O QUE FAZER NO WINDOWS"). Não
+> rotaciona/gera chaves novas — as atuais estão em uso nos deploys.
+>
+> Obs.: parte dos tokens JÁ chegou no Mac via memórias (`cloudflare-*`, `meta-token-path`,
+> `sala-secreta*`) e via `Triadeflow-KB/.secrets.env`. O que falta é o bundle estruturado:
+> os 10 JSONs de `claude-secrets/`, o `mcp-servers-com-tokens.json` e o `COMANDOS-MCP.md`.
 
 ## O que aconteceu no Mac
 

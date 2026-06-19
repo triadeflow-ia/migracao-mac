@@ -7,9 +7,9 @@ Alex baixa eles manualmente, e o Claude do Mac usa estas instruções pra saber 
 
 ## Como usar no Mac
 
-1. Baixe os 4 arquivos da pasta do Drive:
-   https://drive.google.com/drive/folders/1anL6m3vo-A6IWPy9MN17ELf7CwzCivJd
-   (salve em `~/Downloads`)
+1. Baixe os 4 arquivos da sua pasta do Google Drive (salve em `~/Downloads`).
+   O link da pasta não está aqui de propósito — os zips têm tokens, então o repo público
+   não aponta pra eles.
 
 2. Clone este repo e abra o Claude Code dentro dele:
    ```bash

@@ -11,8 +11,9 @@ de seguir. Se algo falhar, pare e explique — nunca improvise com os dados/cred
 O "cérebro" do Claude Code do Alex (config, memória, skills, agents, KB, secrets) e os
 projetos dele foram empacotados no PC Windows em 3 zips + 1 script, e estão no Google Drive.
 
-**O Alex vai baixar os 4 arquivos manualmente** pelo navegador, da pasta do Drive:
-https://drive.google.com/drive/folders/1anL6m3vo-A6IWPy9MN17ELf7CwzCivJd
+**O Alex vai baixar os 4 arquivos manualmente** pelo navegador, da pasta dele no Google
+Drive. (O link da pasta o Alex te passa na hora — não fica neste repo por segurança, já que
+os zips contêm tokens.)
 
 Os 4 arquivos:
 | Arquivo | Tamanho | O quê |
